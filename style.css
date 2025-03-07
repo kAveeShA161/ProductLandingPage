@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+    background-color: aquamarine;
+    color: black;
+}
+
+.hero{
+    background-image: url("images/backg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 1.2em;
+    margin-bottom: 0.5;
+}
+
+.hero-content p{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.cta-button{
+    background-color: rgb(48, 42, 84);
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.cta-button:hover{
+    background-color: rgb(27, 7, 52);
+}
+
+.pricing{
+    padding: 3em 1em;
+    text-align: center;
+    background-color: rgb(205, 230, 252);
+}
+
+.pricing h2{
+    margin-bottom: 2em;
+    font-size: 2.5em;
+}
+
+.pricing-table{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+}
+
+.pricing-card{
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(57, 57, 57, 0.1);
+}
+
+.pricing-card h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.pricing-card .price{
+    font-size: 1.5em;
+    color: rgb(2, 2, 82);
+    margin-bottom: 1em;
+}
+
+.pricing-card ul{
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.pricing-card li{
+    font-size: 1.1em;
+}
+
+.testimonials{
+    padding: 3em 1em;
+    text-align: center;
+    background-color: #f3f9ff;
+}
+
+.testimonials h2{
+    margin-bottom: 2em;
+    font-size: 2.5em;
+} 
+
+.testimonials-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5em;
+}
+
+.testimonial-card{
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.testimonial-card p{
+    font-size: 1.2em;
+    margin-bottom: 1em;   
+}
+
+.testimonial-card h3{
+    font-size: 1.2em;
+    font-weight: bold;
+}
